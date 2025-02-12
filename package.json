@@ -1,5 +1,5 @@
 {
-  "name": "shopify-app-template-php",
+  "name": "cake-php-app-template",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
@@ -11,8 +11,12 @@
     "deploy": "shopify app deploy",
     "info": "shopify app info"
   },
-  "dependencies": {
-    "@shopify/app": "^3.0.0",
-    "@shopify/cli": "^3.0.0"
-  }
+  "dependencies": {},
+  "author": "tyroneroberts",
+  "private": true,
+  "workspaces": [
+    "extensions/*",
+    "web",
+    "web/frontend"
+  ]
 }
